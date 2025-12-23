@@ -1,3 +1,5 @@
+const mongoose = require("mongoose");
+
 const QuizSchema = new mongoose.Schema({
   course: {
     type: mongoose.Schema.Types.ObjectId,

@@ -1,3 +1,5 @@
+const mongoose = require("mongoose");
+
 const LessonSchema = new mongoose.Schema({
   course: {
     type: mongoose.Schema.Types.ObjectId,
